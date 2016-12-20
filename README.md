@@ -1,1 +1,6 @@
 # 8085-Simulator-IDE
+We propose an 8085 simulator with an Integrated Development Environment for PC which provide us with all the programming facilities of the 8085 microprocessor. The system is proposed to replace the 8085 trainer kits that we use in microprocessor laboratories.
+This software accepts mnemonic program from the user as input and converts it into equivalent hex code and load the code into the corresponding memory locations and run the program to obtain the results.
+The simulator has a translator for conversion of mnemonic program into hex code, a debugger for finding and reporting errors and a run function for running the program. 
+The system encourages students to learn, practice and familiarize with 8085 programming without worrying about the hex code conversion. One can simply input the mnemonic program and view the output. And since the system finds and report errors in the program, debugging becomes more easy.
+Memory location is visible to users so it becomes helpful for a student to understand how the program works.

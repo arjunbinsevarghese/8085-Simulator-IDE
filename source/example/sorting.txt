@@ -1,0 +1,19 @@
+lxi hl,4100
+mov c,m
+dcr c
+rep:mov d,c
+lxi hl,4101
+loop:mov a,m
+inx hl
+cmp m
+jnc skip
+mov b,m
+mov m,a
+dcx hl
+mov m,b
+inx hl
+skip: dcr d
+jnz loop
+dcr c
+jnz rep
+hlt

@@ -1,0 +1,15 @@
+mvi a,01
+sta 4030
+mvi c,0a
+lxi hl,4030
+x:mov a,m
+inx hl
+mov b,m
+inx hl
+add b
+daa 
+mov m,a
+dcx hl
+dcr c
+jnz x
+hlt 
